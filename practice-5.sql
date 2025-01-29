@@ -3,6 +3,7 @@
 SELECT property_type, COUNT(*) FROM listings
 WHERE neighborhood = "Hyde Park" 
 GROUP BY property_type;
+-- Updated
 
 -- +-------------------------------------+----------+
 -- | Entire condominium (condo)          | 6        |
